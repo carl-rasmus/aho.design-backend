@@ -1,0 +1,35 @@
+{
+  "name": "ahodesign",
+  "private": true,
+  "version": "1.0.0",
+  "description": "An archive of interaction design student projects from The Oslo School of Architecture and Design",
+  "main": "package.json",
+  "author": "Lars Marcus <vedelerlm@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "test": "sanity check"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^0.140.17",
+    "@sanity/components": "^0.140.25",
+    "@sanity/core": "^0.140.25",
+    "@sanity/default-layout": "^0.140.25",
+    "@sanity/default-login": "^0.140.15",
+    "@sanity/desk-tool": "^0.140.25",
+    "@sanity/google-maps-input": "^0.140.25",
+    "get-video-id": "^3.1.1",
+    "prop-types": "^15.6",
+    "react": "^16.2",
+    "react-dom": "^16.2",
+    "react-icons": "^2.2.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carl-rasmus/aho.design.git"
+  }
+}
